@@ -1,12 +1,12 @@
-- caption: LinkedIn
-  href: https://www.linkedin.com/in/katelyn-m-miller/
-  icon: icons/linkedin.svg
+# - caption: LinkedIn
+#   href: https://www.linkedin.com/in/katelyn-m-miller/
+#   icon: icons/linkedin.svg
 
 - caption: GitHub
   href: https://github.com/katelynnelson38/my-blog
   icon: entypo/github.svg
 
-- caption: Email
-  href: https://katelyn.mei.n@gmail.com
-  icon: icons/email.svg
+# - caption: Email
+#   href: https://katelyn.mei.n@gmail.com
+#   icon: icons/email.svg
 
