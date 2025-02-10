@@ -1,10 +1,8 @@
 ---
-layout: post
 title:  "Beginner's Guide to Creating a Random Forest"
 date:   2022-09-26
-author: Katelyn Nelson
+author: Katelyn Miller
 description: Use the iris dataset to train a random forest with tidymodels in R
-image: /assets/images/olena-sergienko-3BlVILvh9hM-unsplash.jpg
 ---
 
 Let me just start with a big disclaimer: I am not an expert on machine learning. I am just here to share what I know and maybe it will help someone else. Having said that, I LOVE 😍 the tidymodels packages in R. There can be a lot of different pieces, but I think they come together beautifully and I hope this tutorial helps you understand why.
