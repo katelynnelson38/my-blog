@@ -3,10 +3,10 @@
 #   icon: icons/linkedin.svg
 
 - caption: GitHub
-  href: https://github.com/katelynnelson38/my-blog
+  href: https://github.com/katelynnelson38/
   icon: entypo/github.svg
 
-# - caption: Email
-#   href: https://katelyn.mei.n@gmail.com
-#   icon: icons/email.svg
+- caption: Email
+  href: https://katelyn.mei.n@gmail.com
+  icon: entypo/email.svg
 
