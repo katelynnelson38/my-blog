@@ -18,7 +18,7 @@ I created a graph of the 10 countries that have the most landslides to help me d
 
 **Note:** Clicking on one of the landslide triggers will add or remove it from the plot. Double-clicking a specific landslide trigger will remove all other triggers from the plot and can be reset by double-clicking the same trigger.
 
-{% include country_landslides.html %}
+<!-- {% include country_landslides.html %} -->
 
 Looking at the graph above we can see that Brazil and Indonesia have the most landslides than any other country included in the data AND that most of their landslides were triggered by some form of rain. I looked into it, and these two countries both receive above average amounts of rain. Futhermore, we can look at the size of each trigger represented in the graph and see that different intensities of rain are the primary cause of landslides in all of these countries. From this we can infer that rainy countries have more landslides, and Brazil and Indonesia both receive a lot of rain (coincidence? I think not 😉).
 
