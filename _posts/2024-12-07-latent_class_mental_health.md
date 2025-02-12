@@ -24,7 +24,7 @@ anxiety from those without?
 
 Now, if you're not a fan of math stuff then feel free to skip ahead a little bit, but I'm going to just give a brief glimpse into how LCA works. In LCA the latent classes are formed based on observed categorical variables, called manifeset variables.
 
-The joint probability of manifest variables $\textbf{x} = (x_1, x_2, ..., x_p)$ is modeled by a mixture of probabilities across $K$ latent classes. The probability for individual $i$ is given in Equation \ref{eq:LCA_general} where $\eta_j$ is the probability of membership in the $j^{th}$ class. $P(\textbf{x}_{ij} \vert \text{Class } k)$ is the probability of observing response $\textbf{x}_{ij}$ on variable $i$ for an individual in class $k$ and its product is the joint probability of observing the vector \textbf{$x_i$} given that the individual belongs to class $k$.
+The joint probability of manifest variables \(\textbf{x} = (x_1, x_2, ..., x_p)\) is modeled by a mixture of probabilities across \(K\) latent classes. The probability for individual \(i\) is given in Equation \ref{eq:LCA_general} where \(\eta_j\) is the probability of membership in the \(j^{th}\) class. \(P(\textbf{x}_{ij} \vert \text{Class } k)\) is the probability of observing response \(\textbf{x}_{ij}\) on variable \(i\) for an individual in class $k$ and its product is the joint probability of observing the vector \textbf{$x_i$} given that the individual belongs to class \(k\).
 
 $$P(\textbf{x}_{i}) = \sum_{j=1}^{K}\eta_j \prod_{i=1}^p P(\textbf{x}_{ij} \vert \text{Class } k)$$
 
