@@ -5,6 +5,10 @@ tags:
     - unsupervised learning
 ---
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 <!--more-->
 
 # Why latent class analysis?
@@ -34,7 +38,9 @@ LCA also differs from traditional classification analysis in that there are no p
 
 # About the mental health data
 
+The data I decided to use is a survey given to university students the inquires about their academic and demographic characteristics as well as their social habits and mental state. The variables I chose to use are: gender, major, academic year, cumulative GPA, average sleep per night in hours, financial concerns (ranked 1 to 5), quality of current social relationships (ranked 1 to 5), depression severity (ranked 1 to 5), and anxiety severity (ranked 1 to 5).
 
+Unfortunately the exact dataset I used is no longer available for download, but a similar one can be found !(here)[https://www.kaggle.com/datasets/sonia22222/students-mental-health-assessments].
 
 # Model Fitting
 
