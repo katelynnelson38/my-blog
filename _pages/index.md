@@ -2,10 +2,10 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: 
+title: Welcome to Friday Theme
 ---
 
-<!-- ## What is it?
+## What is it?
 
 {% include components/intro.md %}
 
@@ -17,9 +17,9 @@ This web site is the documentation for the theme and also provides examples of h
 
 [The documentation]({{ site.baseurl }}{% link list/projects.md %}) covers the basics of installing and using it, and is an example of how you could write documentation about your own projects.
 
-[The blog]({{ site.baseurl }}{% link list/posts.html %}) has a bunch of tips about how to use Friday Theme. These show how the blog works, including the tags. There's the three most-recent posts below included below. -->
+[The blog]({{ site.baseurl }}{% link list/posts.html %}) has a bunch of tips about how to use Friday Theme. These show how the blog works, including the tags. There's the three most-recent posts below included below.
 
-<!-- <hr /> -->
+<hr />
 
 ### Recent Posts
 
