@@ -13,7 +13,7 @@ Let me just start with a big disclaimer: I am not an expert on machine learning.
 
 If you do not already have a basic understanding of random forests, I suggest taking a few minutes to read about them so you understand what our model is doing. [Here](https://careerfoundry.com/en/blog/data-analytics/what-is-random-forest/) is a good website to get you started!
 
-# Let's begin!
+## Let's begin!
 
 Don't forget to load the tidyverse and tidymodels libraries before you begin.
 
@@ -25,7 +25,7 @@ glimpse(iris)
 
 When we run this, we can see that this a fairly simple dataset containing four explanatory variables that we will use to train a model that predicts which of three species that an iris belongs to.
 
-# Prepping the data
+## Prepping the data
 
 Because the dataset is very small (150 rows), we will use bootstrapping to simulate samples that will be used in training and evaluating the random forest. 
 
@@ -46,7 +46,7 @@ iris_prep <- prep(iris_rec)
 juice(iris_prep)
 ```
 
-# Creating a random forest model
+## Creating a random forest model
 
 The best thing to do when creating a random forest model is to give it a lot of trees, we'll use 1000 trees. Set the mode to "classification" because we are predicting a categorical response (use "regression" for continuous response variables). You can also use the "randomForest" engine, but here we will use "ranger". 
 
@@ -70,7 +70,7 @@ It should look something like this...
 
 ![workflow](https://raw.githubusercontent.com/katelynnelson38/stat386-projects/main/assets/images/rfpost/workflow.PNG)
 
-# Evaluate the model
+## Evaluate the model
 
 Now that we've created a random forest model (GREAT job 😏) we want to see how well it performs. `fit_resamples()` will use the workflow and our bootstrapping samples to see how accurate the predictions are compared to the actual iris species.
 
@@ -93,7 +93,7 @@ iris_resamples %>%
 
 ![metrics](https://raw.githubusercontent.com/katelynnelson38/stat386-projects/main/assets/images/rfpost/metrics.PNG)
 
-# Variable importance
+## Variable importance
 
 Just for fun, I'm also going to add code below that will tell you how important each variable is in predicting the iris species.
 
@@ -108,6 +108,6 @@ rf_model %>%
 
 ![variable importance plot](https://raw.githubusercontent.com/katelynnelson38/stat386-projects/main/assets/images/rfpost/var_importance.png)
 
-# Helpful resources
+## Helpful resources
 
 This post was meant to be a brief example of a tidymodels random forest, but I encourage you to try something more complicated next time! I have found a lot of great resources online that helped me a lot when training more complex models. I love Julia Silge's blog and she has a free interactive machine learning course that you can find [here](https://juliasilge.com/blog/tidymodels-ml-course/). The [tidymodels webite](https://www.tidymodels.org/) is also a great resource!
