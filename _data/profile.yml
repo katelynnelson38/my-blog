@@ -1,14 +1,18 @@
-- caption: katelyn.mei.n@gmail.com
+- caption: Email me
   href: https://katelyn.mei.n@gmail.com
   icon: entypo/mail.svg
 
-- caption: katelyn-m-miller
+- caption: LinkedIn
   href: https://www.linkedin.com/in/katelyn-m-miller/
   icon: entypo/linkedin-with-circle.svg
 
-- caption: katelynnelson38
+- caption: Github
   href: https://github.com/katelynnelson38/
   icon: entypo/github.svg
+
+- caption: Resume
+  href: https://github.com/katelynnelson38/my-blog/blob/main/Resume_KatelynMiller.pdf
+  icon: entypo/attachment.savg
 
 
 
