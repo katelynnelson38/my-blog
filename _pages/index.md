@@ -2,22 +2,26 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Friday Theme
+title: Welcome to *My Data & I*
 ---
 
-## What is it?
+<!-- ## What is it?
 
 {% include components/intro.md %}
 
-[Here's the full feature list and some quick examples of what it can do.]({{ site.baseurl}}{% link _pages/about.md %})
+[Here's the full feature list and some quick examples of what it can do.]({{ site.baseurl}}{% link _pages/about.md %}) -->
 
-## How to use it
+Hi, I’m **Katelyn Miller**—a statistician with a passion for exploring data. With a master's degree in statistics, I’ve dedicated myself to understanding the stories numbers tell. This site is a collection of my projects, projects I have consulted on, and other application I find interesting.
 
-This web site is the documentation for the theme and also provides examples of how you can use and modify it. TIt is built using Friday Theme directly from the [GitHub repo](https://github.com/sfreytag/friday-theme) and published to GitHub pages.
+💡 **What you'll find here:**  
+- Data modeling & statistical insights  
+- Interactive visualizations & charts 📈  
+- Projects that explore real-world data  
+- Tips and techniques in Python, R, and more
+- My qualifications and interests as a statistician
 
-[The documentation]({{ site.baseurl }}{% link list/projects.md %}) covers the basics of installing and using it, and is an example of how you could write documentation about your own projects.
+I’m glad you stopped by! Feel free to explore and reach out if you’d like to connect.
 
-[The blog]({{ site.baseurl }}{% link list/posts.html %}) has a bunch of tips about how to use Friday Theme. These show how the blog works, including the tags. There's the three most-recent posts below included below.
 
 <hr />
 
