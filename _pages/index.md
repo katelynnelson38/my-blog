@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to *My Data & I*
+title: Welcome to <em>My Data & I</em>
 ---
 
 <!-- ## What is it?
