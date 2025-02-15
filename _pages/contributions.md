@@ -1,5 +1,8 @@
 ---
-title: Co-author
+layout: defaults/page
+permalink: contributions.html
+narrow: true
+title: Contributions
 ---
 
 These are published papers that I consulted on for the statistical analysis.
