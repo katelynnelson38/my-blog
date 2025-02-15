@@ -4,29 +4,33 @@ tags:
   - Machine Learning
   - R
   - Kaggle
+  - tidymodels
 ---
 
 <!--more-->  
 
-Kaggle competitions are a great way to test your machine learning skills on real-world data. The [**Don't Get Kicked**](https://www.kaggle.com/competitions/DontGetKicked) challenge was all about predicting which used cars at auction would turn out to be lemons—meaning they had major issues that made them a poor investment.  
+Kaggle competitions are a great way to test your machine learning skills on real-world data. The [**Don't Get Kicked**](https://www.kaggle.com/competitions/DontGetKicked) challenge was all about predicting which used cars 🚗 at auction would turn out to be lemons—meaning they had major issues that made them a poor investment.  
 
-In this post, I'll walk through my approach, the models I tested, and what I learned along the way.  
-
----
+In this post, I'll walk through my approach, the models I tested, and what I learned along the way. If you'd like to dive in to my code, check out my [repository on github](https://github.com/katelynnelson38/kaggle_dont_get_kicked).
 
 ## Exploring the Data  
 
 The dataset contained information about used cars sold at auctions, including details like the manufacturer, vehicle age, mileage, and pricing estimates. The goal? To predict whether a car was a bad buy (`IsBadBuy = 1`).  
 
-A few quick takeaways from my initial exploration:  
+📌A few quick takeaways from my initial exploration:  
 
 - Some categorical features had *a ton* of levels (like `Model` and `Trim`), which could make modeling tricky.  
 - There were missing values, especially in variables like `PRIMEUNIT` and `AUCGUART`.  
-- The dataset was **imbalanced**—only about **12%** of the cars were labeled as bad buys.  
+- The dataset was imbalanced—only about 12% of the cars were labeled as bad buys.  
 
-**Suggested Plot:** Class distribution of `IsBadBuy` to highlight the imbalance.  
-
----
+<div class="card mb-3">
+    <img class="card-img-top" src="theme/img/dont_get_kicked_post/class_imbalance.jpeg"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            The Peak District on a mosty morning.
+        </div>
+    </div>
+</div>
 
 ## Feature Engineering & Preprocessing  
 
@@ -84,7 +88,7 @@ I experimented with several classification models to see what worked best. Here'
 
 ## Results & Key Takeaways  
 
-After tuning hyperparameters and evaluating on the test set, **XGBoost** came out on top. It consistently had the highest AUC score and performed well despite the class imbalance.  
+After tuning hyperparameters and evaluating on the test set, **XGBoost** came out on top 🏆. It consistently had the highest AUC score and performed well despite the class imbalance.  
 
 A few key takeaways:  
 - **Feature selection matters** – Removing redundant and high-cardinality features helped.  
