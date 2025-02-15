@@ -24,10 +24,9 @@ The dataset contained information about used cars sold at auctions, including de
 - The dataset was imbalanced—only about 12% of the cars were labeled as bad buys.  
 
 <div class="card mb-3">
-    <img class="card-img-top" src="theme/img/dont_get_kicked_post/class_imbalance.jpeg"/>
+    <img class="card-img-top" src="../theme/img/dont_get_kicked_post/class_imbalance.jpeg"/>
     <div class="card-body bg-light">
         <div class="card-text">
-            The Peak District on a mosty morning.
         </div>
     </div>
 </div>
