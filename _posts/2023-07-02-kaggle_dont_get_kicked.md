@@ -32,7 +32,11 @@ The dataset contained information about used cars sold at auctions, including de
     </div>
 </div> -->
 
-![imbalance](theme/img/dont_get_kicked_post/class_imbalance.jpeg)
+<!-- ![imbalance](theme/img/dont_get_kicked_post/class_imbalance.jpeg) -->
+
+![imbalance](https://raw.githubusercontent.com/katelynnelson38/my-blog/main/theme/img/dont_get_kicked_post/class_imbalance.jpeg)
+
+<!-- ![fatalities month](https://raw.githubusercontent.com/katelynnelson38/stat386-projects/main/assets/images/edapost/fatalities_month.png) -->
 
 ## Feature Engineering & Preprocessing  
 
