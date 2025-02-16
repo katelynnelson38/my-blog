@@ -67,9 +67,7 @@ How It Works:
 3. Use these predictions as inputs to train a final meta-model (e.g., a simple linear model or another XGBoost model).
 4. The meta-model learns how to best combine the base models' outputs to make a final prediction.
 
-Tidymodels has the capability of combing other models into a stacked model, so I went ahead and [tried a few different stacking combos](https://github.com/katelynnelson38/kaggle_dont_get_kicked/blob/main/CarAuction_stacked.R) with the models I fit above.
-
-
+Tidymodels has the capability of combing other models into a stacked model, so I went ahead and [tried a few different stacking combos](https://github.com/katelynnelson38/kaggle_dont_get_kicked/blob/main/CarAuction_stacked.R) with the models I fit above. Unfortunately, none of them performed better than the XGBoost model.
 
 ## The End  
 
