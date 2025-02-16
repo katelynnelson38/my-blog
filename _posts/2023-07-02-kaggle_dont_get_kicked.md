@@ -55,6 +55,7 @@ When submitting your preditions on the test data to kaggle, they are scored by w
 | Decision Tree        | 0.2127     |
 | KNN                  | 0.1627     |
 
+
 After tuning hyperparameters and evaluating on the test set, **XGBoost** came out on top 🏆. It consistently had the highest AUC score and performed well despite the class imbalance.  
 
 ## Stacking Models
