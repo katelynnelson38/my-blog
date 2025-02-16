@@ -3,6 +3,7 @@ title:  "Beginner's Guide to Creating a Random Forest"
 tags: 
   - Machine Learning
   - R
+  - tidymodels
 ---
 
 We're going to use the iris dataset to train a random forest with tidymodels in R.
