@@ -32,7 +32,7 @@ The dataset contained information about used cars sold at auctions, including de
     </div>
 </div> -->
 
-![imbalance](https://github.com/katelynnelson38/my-blog/blob/main/theme/img/dont_get_kicked_post/class_imbalance.jpeg)
+![imbalance](https://raw.githubusercontent.com/katelynnelson38/my-blog/blob/main/theme/img/dont_get_kicked_post/class_imbalance.jpeg)
 
 ## Feature Engineering & Preprocessing  
 
