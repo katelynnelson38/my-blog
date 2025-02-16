@@ -44,18 +44,16 @@ To prep the data for modeling, I used the **tidymodels** framework and built a p
 
 ## Trying Different Models  
 
-When submitting your preditions on the test data to kaggle, they are scored by what is called a gini index. A lower score is a better score. I experimented with several classification models to see what worked best. Here's what happened:  
+When submitting your preditions on the test data to kaggle, they are scored by what is called a gini index. A higher score is a better score. I experimented with several classification models to see what worked best. Here's what happened:  
 
-| Model                | Accuracy | Precision | Recall | AUC Score |
-|----------------------|----------|-----------|--------|-----------|
-| Logistic Regression |          |           |        |           |
-| Naive Bayes         |          |           |        |           |
-| k-NN                |          |           |        |           |
-| Decision Tree       |          |           |        |           |
-| Random Forest       |          |           |        |           |
-| XGBoost            |          |           |        |           |
-| SVM                |          |           |        |           |
-| Neural Network     |          |           |        |           |
+| Model                | Gini Index |
+|----------------------|------------|
+| XGBoost              | 0.2335     |
+| Logistic Regression  | 0.2285     |
+| Random Forest        | 0.2254     |
+| Naive Bayes          | 0.2177     |
+| Decision Tree        | 0.2127     |
+| KNN                  | 0.1627     |
 
 After tuning hyperparameters and evaluating on the test set, **XGBoost** came out on top 🏆. It consistently had the highest AUC score and performed well despite the class imbalance.  
 
