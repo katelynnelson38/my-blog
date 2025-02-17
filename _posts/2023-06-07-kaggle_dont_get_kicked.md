@@ -6,6 +6,7 @@ tags:
   - Kaggle
   - tidymodels
   - Ensemble Learning
+  - Binary Classification
 ---
 
 <!--more-->  
