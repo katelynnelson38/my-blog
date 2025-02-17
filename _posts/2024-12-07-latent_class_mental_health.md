@@ -58,11 +58,11 @@ I fit models for 2, 3, and 4 classes and compared their AIC and \( \chi^2 \) goo
 
 ![model comparison metrics](https://raw.githubusercontent.com/katelynnelson38/my-blog/main/theme/img/lca_post/class_size.png)
 
-| **Model**  | **AIC**  | **Chi-Square Statistic** |
+<!-- | **Model**  | **AIC**  | **Chi-Square Statistic** |
 |------------|---------|------------------------|
 | 2-Class   | 1977.63 | 146868                 |
 | 3-Class   | 1953.11 | 226491                 |
-| 4-Class   | 2011.34 | 113801                 |
+| 4-Class   | 2011.34 | 113801                 | -->
 
 ## Results
 
@@ -70,7 +70,7 @@ Conditional Probabilities of Variables for the Three Latent Classes
 
 ![conditional probabilities](https://raw.githubusercontent.com/katelynnelson38/my-blog/main/theme/img/lca_post/conditional_probs.png)
 
-
+<!-- 
 | **Variable**              | **Class 1** | **Class 2** | **Class 3** |
 |--------------------------|------------|------------|------------|
 | **Gender**               |            |            |            |
@@ -115,7 +115,7 @@ Conditional Probabilities of Variables for the Three Latent Classes
 | Pr(2)               | 0.0526     | 0.1711     | 0.2924     |
 | Pr(3)               | 0.0000     | 0.3857     | 0.2224     |
 | Pr(4)               | 0.0000     | 0.4433     | 0.2818     |
-| Pr(5)(Severe Anxiety)| 0.8946     | 0.0000     | 0.0000     |
+| Pr(5)(Severe Anxiety)| 0.8946     | 0.0000     | 0.0000     | -->
 
 ### Interpretation of Latent Classes
 
