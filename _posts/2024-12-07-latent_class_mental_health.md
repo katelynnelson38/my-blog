@@ -56,6 +56,8 @@ Unfortunately, the exact dataset I used is no longer available for download, but
 
 I fit models for 2, 3, and 4 classes and compared their AIC and \( \chi^2 \) goodness-of-fit statistics (shown below) to decide which model was most appropriate. The 3-class model had the lowest AIC, while the 4-class model had the best goodness-of-fit. I proceeded with the 3-class model because it yielded more distinct groupings based on manifest variables.
 
+![model comparison metrics](https://raw.githubusercontent.com/katelynnelson38/my-blog/main/theme/img/lca_post/class_size.html)
+
 | **Model**  | **AIC**  | **Chi-Square Statistic** |
 |------------|---------|------------------------|
 | 2-Class   | 1977.63 | 146868                 |
@@ -64,7 +66,10 @@ I fit models for 2, 3, and 4 classes and compared their AIC and \( \chi^2 \) goo
 
 ## Results
 
-### Conditional Probabilities of Variables for the Three Latent Classes
+Conditional Probabilities of Variables for the Three Latent Classes
+
+![conditional probabilities](https://raw.githubusercontent.com/katelynnelson38/my-blog/main/theme/img/lca_post/conditional_probs.html)
+
 
 | **Variable**              | **Class 1** | **Class 2** | **Class 3** |
 |--------------------------|------------|------------|------------|
