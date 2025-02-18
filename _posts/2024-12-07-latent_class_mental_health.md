@@ -3,6 +3,7 @@ title:  "Mental Health in University Students: A Latent Class Introduction and A
 tags:
     - R
     - Unsupervised Learning
+    - Latent Class Analysis
 ---
 
 <!-- <script type="text/javascript" async
