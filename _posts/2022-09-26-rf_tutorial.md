@@ -4,9 +4,8 @@ tags:
   - Machine Learning
   - R
   - tidymodels
+  - Data Cleaning
 ---
-
-We're going to use the iris dataset to train a random forest with tidymodels in R.
 
 <!--more-->
 
