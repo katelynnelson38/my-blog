@@ -5,9 +5,9 @@ tags:
     - Unsupervised Learning
 ---
 
-<script type="text/javascript" async
+<!-- <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+</script> -->
 
 <!--more-->
 
@@ -23,7 +23,7 @@ I want to use LCA on university mental health data to explore two things:
 
 Now, if you're not a fan of math, feel free to skip ahead, but I’ll briefly explain how LCA works. In LCA, latent classes are formed based on observed categorical variables, called manifest variables.
 
-The joint probability of manifest variables \( \mathbf{x} = (x_1, x_2, \dots, x_p) \) is modeled by a mixture of probabilities across \( K \) latent classes. The probability for individual \( i \) is given by:
+The joint probability of manifest variables $\mathbf{x} = (x_1, x_2, \dots, x_p)$ is modeled by a mixture of probabilities across $K$ latent classes. The probability for individual \( i \) is given by:
 
 $$ P(\mathbf{x}_i) = \sum_{j=1}^{K} \eta_j \prod_{i=1}^{p} P(\mathbf{x}_{ij} \mid \text{Class } k) $$
 
