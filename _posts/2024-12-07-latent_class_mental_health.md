@@ -23,13 +23,13 @@ I want to use LCA on university mental health data to explore two things:
 
 Now, if you're not a fan of math, feel free to skip ahead, but I’ll briefly explain how LCA works. In LCA, latent classes are formed based on observed categorical variables, called manifest variables.
 
-The joint probability of manifest variables $\mathbf{x} = (x_1, x_2, \dots, x_p)$ is modeled by a mixture of probabilities across $K$ latent classes. The probability for individual \( i \) is given by:
+The joint probability of the manifest variables $$\mathbf{x} = (x_1, x_2, \dots, x_p)$$ is modeled by a mixture of probabilities across K latent classes. The probability for individual i is given by:
 
-$$ P(\mathbf{x}_i) = \sum_{j=1}^{K} \eta_j \prod_{i=1}^{p} P(\mathbf{x}_{ij} \mid \text{Class } k) $$
+$$ P(\mathbf{x}_i) = \sum_{j=1}^{K} \eta_j \prod_{i=1}^{p} P(\mathbf{x}_{ij} \mid \text{Class } j) $$
 
-where \( \eta_j \) is the probability of membership in the \( j^{th} \) class, and \( P(\mathbf{x}_{ij} \mid \text{Class } k) \) is the probability of observing response \( \mathbf{x}_{ij} \) on variable \( i \) for an individual in class \( k \).
+where each η is the probability of membership in the jth class, and $$ P(\mathbf{x}_{ij} \mid \text{Class } k) $$ is the probability of observing the manifest variable i for an individual in class j.
 
-In other words, LCA assumes that the observed variables in \( \mathbf{x}_i \) can be summarized as a weighted sum of conditional response probabilities, where the weights are the class proportions.
+In other words, LCA assumes that the observed variables can be summarized as a weighted sum of conditional response probabilities, where the weights are the class proportions.
 
 ## How is this different from other methods?
 
