@@ -14,9 +14,8 @@ title: Welcome to <em>My Data & I</em>
 Hi, I’m **Katelyn Miller**—a statistician with a passion for exploring data. With a master's degree in statistics, I’ve dedicated myself to understanding the stories numbers tell. This site is a collection of my projects, projects I have consulted on, and other application I find interesting.
 
 💡 **What you'll find here:**  
-- Data modeling & statistical insights  
-- Interactive visualizations & charts 📈  
-- Projects that explore real-world data  
+- Data modeling & statistical insights   
+- Projects that explore real-world data 📈 
 - Tips and techniques in Python, R, and more
 - My qualifications and interests as a statistician
 
