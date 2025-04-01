@@ -16,6 +16,7 @@ Projects I assisted with through the BYU Statistics Consulting Center:
 - Math 112 at BYU: Students’ Averages in different question types (link pending)
 - Improved Seedling Success of Wyoming Indian paintbrush using a Conglomerate Seed Coating with Rocky Mountain penstemon (link pending)
 - Acute Effects of Blood Flow Restriction During Low-Load Exercise and Recovery on Blood Flow and Performance (link pending)
+- Parents' Perceptions of Their Sons Potentially Pursuing HEAL Careers (link pending)
 
 
 
